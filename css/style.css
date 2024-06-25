@@ -33,13 +33,24 @@ body {
 .profile-col {
   display: flex;
   flex-direction: column;
+  margin-left: 13px;
 }
 
 .avatar {
-  border: 1px solid hsl(263, 55%, 52%);
+  border: 2px solid hsl(264, 43%, 57%);
   border-radius: 50%;
   width: 25px;
 }
+
+.name {
+  color: hsl(0, 0%, 100%)
+}
+
+.verification {
+  color: hsla(0, 0%, 100%, 0.5)
+}
+
+
 
 .attribution {
   font-size: 11px;

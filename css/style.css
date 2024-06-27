@@ -24,6 +24,7 @@ body {
   height: 280px;
   padding: 30px;
   border-radius: 10px;
+  position: relative;
 }
 .profile-row {
   display: flex;
@@ -39,7 +40,7 @@ body {
 .avatar {
   border: 2px solid hsl(264, 43%, 57%);
   border-radius: 50%;
-  width: 25px;
+  width: 30px;
 }
 
 .name {
@@ -50,7 +51,27 @@ body {
   color: hsla(0, 0%, 100%, 0.5)
 }
 
+.quote {
+  position: absolute;
+  transform: translateX(310%) translateY(-60%);
+  z-index: 0;
+}
 
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+  position: relative;
+  z-index: 1;
+  margin-top: 11px;
+  font-weight: 600;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.5);
+  margin-top: 11px;
+  line-height: 18px;
+  letter-spacing: 0.2;
+}
 
 .attribution {
   font-size: 11px;

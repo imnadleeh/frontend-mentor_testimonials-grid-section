@@ -26,6 +26,25 @@ body {
   border-radius: 10px;
   position: relative;
 }
+
+.box_2 {
+  background-color: hsl(217, 19%, 35%);
+  width: 250px;
+  height: 280px;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.box_3 {
+  background-color: hsl(0, 0%, 100%);
+  width: 250px;
+  height: 255px;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
 .profile-row {
   display: flex;
   align-items: center;
@@ -37,18 +56,35 @@ body {
   margin-left: 13px;
 }
 
-.avatar {
+.avatar-with-border {
   border: 2px solid hsl(264, 43%, 57%);
   border-radius: 50%;
   width: 30px;
 }
 
-.name {
-  color: hsl(0, 0%, 100%)
+.avatar-no-border {
+  border-radius: 50%;
+  width: 30px;
 }
 
-.verification {
+.name-white {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+
+.verification-white {
   color: hsla(0, 0%, 100%, 0.5)
+}
+
+.name-gray {
+  color: hsl(217, 19%, 35%);
+  font-weight: 600;
+  letter-spacing: 0.7px;
+}
+
+.verification-gray {
+  color: hsla(217, 19%, 35%, 0.5)
 }
 
 .quote {
@@ -57,7 +93,7 @@ body {
   z-index: 0;
 }
 
-h1 {
+h1.white {
   color: hsl(0, 0%, 100%);
   font-size: 20px;
   position: relative;
@@ -66,8 +102,24 @@ h1 {
   font-weight: 600;
 }
 
-p {
-  color: hsla(0, 0%, 100%, 0.5);
+p.white {
+  color: hsla(0, 0%, 100%, 0.7);
+  margin-top: 11px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+h1.gray {
+  color: hsl(217, 19%, 35%);
+  font-size: 20px;
+  position: relative;
+  z-index: 1;
+  margin-top: 11px;
+  font-weight: 600;
+}
+
+p.gray {
+  color: hsla(217, 19%, 35%, 0.7);
   margin-top: 11px;
   line-height: 18px;
   letter-spacing: 0.2;

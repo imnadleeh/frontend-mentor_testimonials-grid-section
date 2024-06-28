@@ -33,16 +33,30 @@ body {
   height: 280px;
   padding: 30px;
   border-radius: 10px;
-  position: relative;
 }
 
 .box_3 {
   background-color: hsl(0, 0%, 100%);
   width: 250px;
-  height: 255px;
+  height: 265px;
   padding: 30px;
   border-radius: 10px;
-  position: relative;
+}
+
+.box_4 {
+  background-color: hsl(219, 29%, 14%);
+  width: 540px;
+  height: 265px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.box_5 {
+  background-color: hsl(0, 0%, 100%);
+  width: 250px;
+  height: 575px;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 .profile-row {
@@ -89,8 +103,10 @@ body {
 
 .quote {
   position: absolute;
-  transform: translateX(310%) translateY(-60%);
+  transform: translateX(307%) translateY(-57%);
   z-index: 0;
+  width: 105px;
+  height: 108px;
 }
 
 h1.white {
@@ -98,13 +114,13 @@ h1.white {
   font-size: 20px;
   position: relative;
   z-index: 1;
-  margin-top: 11px;
+  margin-top: 15px;
   font-weight: 600;
 }
 
 p.white {
   color: hsla(0, 0%, 100%, 0.7);
-  margin-top: 11px;
+  margin-top: 18px;
   line-height: 18px;
   letter-spacing: 0.2px;
 }
@@ -114,13 +130,13 @@ h1.gray {
   font-size: 20px;
   position: relative;
   z-index: 1;
-  margin-top: 11px;
+  margin-top: 15px;
   font-weight: 600;
 }
 
 p.gray {
   color: hsla(217, 19%, 35%, 0.7);
-  margin-top: 11px;
+  margin-top: 20px;
   line-height: 18px;
   letter-spacing: 0.2;
 }

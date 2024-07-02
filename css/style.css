@@ -15,7 +15,13 @@ body {
 }
 
 .container {
-  margin: 165px
+  margin: 165px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+      "box_1 box_1 box_2 box_5"
+      "box_3 box_4 box_4 box_5";
+  gap: 30px
 }
 
 .box_1 {
@@ -88,7 +94,7 @@ body {
 }
 
 .verification-white {
-  color: hsla(0, 0%, 100%, 0.5)
+  color: hsla(0, 0%, 100%, 0.5);
 }
 
 .name-gray {
@@ -98,14 +104,15 @@ body {
 }
 
 .verification-gray {
-  color: hsla(217, 19%, 35%, 0.5)
+  color: hsla(217, 19%, 35%, 0.5);
 }
 
 .quote {
   position: absolute;
-  transform: translateX(307%) translateY(-57%);
+  top: 0;
+  right: 84px;
   z-index: 0;
-  width: 105px;
+  width: 102px;
   height: 108px;
 }
 

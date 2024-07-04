@@ -18,9 +18,22 @@ body {
   margin: 75px;
   display: grid;
   grid-template-areas:
-      "box_1 box_1 box_2 box_5"
-      "box_3 box_4 box_4 box_5";
+    "box_1 box_1 box_2 box_5"
+    "box_3 box_4 box_4 box_5";
   gap: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "box_1"
+      "box_2"
+      "box_3"
+      "box_4"
+      "box_5";
+  }
 }
 
 .box_1 {

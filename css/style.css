@@ -124,7 +124,8 @@ p.white {
   color: hsla(0, 0%, 100%, 0.7);
   margin-top: 18px;
   line-height: 18px;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
+  font-weight: 500;
 }
 
 h1.gray {
@@ -140,7 +141,8 @@ p.gray {
   color: hsla(217, 19%, 35%, 0.7);
   margin-top: 20px;
   line-height: 18px;
-  letter-spacing: 0.2;
+  letter-spacing: 0.2px;
+  font-weight: 500;
 }
 
 /*

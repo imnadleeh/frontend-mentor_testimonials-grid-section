@@ -28,6 +28,7 @@ body {
   padding: 30px;
   border-radius: 10px;
   position: relative;
+  box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.3);
   grid-area: box_1;
 }
 
@@ -35,6 +36,7 @@ body {
   background-color: hsl(217, 19%, 35%);
   padding: 30px;
   border-radius: 10px;
+  box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.3);
   grid-area: box_2;
 }
 
@@ -42,6 +44,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   padding: 30px;
   border-radius: 10px;
+  box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.3);
   grid-area: box_3;
 }
 
@@ -49,6 +52,7 @@ body {
   background-color: hsl(219, 29%, 14%);
   padding: 30px;
   border-radius: 10px;
+  box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.3);
   grid-area: box_4;
 }
 
@@ -56,6 +60,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   padding: 30px;
   border-radius: 10px;
+  box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.3);
   grid-area: box_5;
 }
 
@@ -145,25 +150,27 @@ p.gray {
   font-weight: 500;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 680px) {
   .container {
     display: grid;
     grid-template-columns: minmax(250px, auto) minmax(250px, auto);
     grid-template-areas:
-        "box_1 box_4"
-        "box_2 box_3"
-        "box_5 box_5";
+      "box_1 box_4"
+      "box_2 box_3"
+      "box_5 box_5";
     gap: 25px;
-    padding: 25px;
+    margin: 75px;
     align-items: unset;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
   .container {
-      grid-template-columns: repeat(4, minmax(200px, auto));
-      grid-template-areas:
-          "box_1 box_1 box_2 box_5"
-          "box_3 box_4 box_4 box_5";
+    grid-template-columns: repeat(4, minmax(200px, auto));
+    grid-template-areas:
+      "box_1 box_1 box_2 box_5"
+      "box_3 box_4 box_4 box_5";
+      margin: 125px;
   }
 }
 

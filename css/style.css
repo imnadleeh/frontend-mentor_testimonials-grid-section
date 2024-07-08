@@ -170,15 +170,14 @@ p.gray {
     grid-template-areas:
       "box_1 box_1 box_2 box_5"
       "box_3 box_4 box_4 box_5";
-      margin: 125px;
-  }
+      margin: 240px;
 }
 
-.attribution {
+/* .attribution {
   font-size: 11px;
   text-align: center;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
+} */
